@@ -1,37 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>lesson 7</title>
-  </head>
-  <body>
-    <h1 align="center">Example of Table.</h1>
-    <hr />
-    <table border="2" align="center" width="500px" cellpadding="10">
-      <tr align="center">
-        <td>orange</td>
-        <td>white</td>
-        <td rowspan="2">blue</td>
-      </tr>
-      <tr align="center">
-        <td>pitch</td>
-        <td>black</td>
-      </tr>
-    </table>
-    <table border="2" align="center" cellpadding="10" width="500px">
-      <thead>
-        <th>name</th>
-        <th>age</th>
-        <th>bod</th>
-      </thead>
-      <tbody>
-        <tr align="center">
-        <td bgcolor="blue">himanshu chavda</td>
-        <td>27</td>
-        <td>02/11/1996</td>
-        </tr>
-    </tbody>
-    </table>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>example of navigation bar</title>
+    <link rel="stylesheet" href="mystyle2.css">
+    <style>
+        #image1
+        {
+            border-radius: 20rem;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <nav id="main_nav">
+        <div id="logo_nav">
+            <img src="../image/logo1.png/" height="70px">
+            <h3>my web page 1</h3>
+        </div>
+        <div id="link" align="right">
+            <a href="">link1</a>
+            <a href="">link2</a>
+            <a href="">link3</a>
+            <a href="">link4</a>
+            <input type="search" >
+        </div>
+    </nav>
+    <hr>
+    <nav id="nav2">
+        <div id="div2">
+            <img src="../image/logo1.png" alt="" height="70px">
+            <div id="link2">
+                    <a href="">link 1</a>
+                    <a href="">link 2</a>
+                    <a href="">link 3</a>
+            </div>    
+        </div>
+        <div id="input">
+            <input type="search">
+            <input type="search">
+        </div>
+    </nav>
+    <hr>
+    <nav id="nav3">
+        <div id="link3">
+            <a href="">link 1</a>
+            <a href="">link 2</a>
+            <a href="">link 3</a>
+        </div>
+        <div id="logo3">
+            <img src="../image/logo1.png" alt="" width="70px" id="image1">
+            <h3>my web page1 </h3>
+        </div>
+
+    </nav>
+    <hr>
+</body>
 </html>
